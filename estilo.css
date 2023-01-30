@@ -1,0 +1,110 @@
+*{  
+    font-family: 'Digital','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+@font-face{
+    font-family: digital;
+    src: url(font/Digital7-rg1mL.ttf);
+    }
+body{
+    overflow: hidden;
+
+}
+@media (max-width: 768px){
+    h1{
+        margin-left: 200px;
+    }
+}
+#all{
+    background-image: url(fundo_econet.png) ;
+    /* background-image: linear-gradient(rgb(138, 138, 138) 20%,rgb(163, 163, 163),rgb(151, 151, 151)); */
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top;
+    padding-bottom:50%;
+}
+h1{    
+    font-size: 200%;
+}
+#cronometro{
+    border: 5px 5px 5px 5px solid rgba(0, 0, 0, 0.253);
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 100%;
+    border-radius: 0px 0px 40px 40px;
+    background-color: rgba(102, 114, 167, 0.473);
+    text-align: center;
+}
+#faixa{
+    margin: 0px;
+    padding: 30px;
+    color: aliceblue;
+    text-align: center;
+    background-color: rgba(213, 228, 247, 0.24);
+}
+#logo{
+    position:absolute ;
+    margin-top: -20px;
+    max-width: 300px;   
+    width: 210px;
+    display: block;
+}
+button:hover{
+    filter: drop-shadow(1px 10px 5px rgba(0, 0, 0, 0.356));
+    width: 22%;
+    height: 30%;
+    
+    transition: 0.5s;
+    background-color: rgba(245, 246, 247, 0.521) ;
+}
+button{
+    min-width: 170px;
+    cursor:pointer;
+    border: 0;
+    transition: 0.5s;
+    color: aliceblue;
+    background-color: rgba(115, 169, 223, 0.37);
+    font-size: 250%;
+    margin: 0px;
+    padding: 0px 10px 0px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20%;
+    width: 20%;
+/*     width: fit-content; */
+
+}
+#watch{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    font-size: 250%;
+    padding: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 50%;
+    background-color: rgb(182, 199, 206);
+}
+#start{
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+}
+#pause{
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+#reset{
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+
+}    
+
+#res {
+    font-size: 180%;
+    padding-right: 0px;
+}
